@@ -20,7 +20,8 @@ function svg_upload( $mimes ) {
 }
 add_action( 'mime_types', 'svg_upload' );
 
-//COmment test
+//COmment test 
+//Comment 02
 
 
 /* Enqueues the external CSS file */
