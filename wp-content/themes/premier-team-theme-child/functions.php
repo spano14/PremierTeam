@@ -20,6 +20,8 @@ function svg_upload( $mimes ) {
 }
 add_action( 'mime_types', 'svg_upload' );
 
+//COmment test
+
 
 /* Enqueues the external CSS file */
 add_action( 'wp_enqueue_scripts', 'tutsplus_external_styles' );
