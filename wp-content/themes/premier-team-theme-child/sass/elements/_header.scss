@@ -1,0 +1,44 @@
+nav#header {
+    background: transparent !important;
+    padding: 0;
+
+    .navbar-brand {
+        img {
+            height: 50px;
+        }
+    }
+
+    div#navbar {
+        .navbar-nav {
+            margin: 0 auto;
+            display: flex;
+            gap: 15px;
+        }
+        ul#menu-main-menu {
+            a.nav-link {
+                color: $white;
+                font-weight: 500;
+                font-size: 17px;
+                &:hover {
+                    color: $secondary_color;
+                }
+            }
+        }
+    }
+
+    &.scrolled
+        .container
+        {
+            background-color: rgba(49, 58, 72, 0.85) !important;
+            -webkit-backdrop-filter: blur(8px);
+            backdrop-filter: blur(8px);
+            transition: all 0.3s ease;
+        }
+
+    .container {
+        transition: all 0.3s ease;
+        border-radius: 16px;
+        z-index: 999;
+        padding: 15px 20px 15px 30px;
+    }
+}

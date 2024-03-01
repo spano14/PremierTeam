@@ -1,0 +1,86 @@
+@import '../node_modules/bootstrap/scss/functions';
+
+// Options
+$enable-dark-mode: false;
+$enable-rounded: true;
+$enable-shadows: true;
+$enable-gradients: true;
+$enable-transitions: true;
+$enable-reduced-motion: true;
+$enable-grid-classes: true;
+$enable-container-classes: true;
+$enable-caret: true;
+$enable-button-pointers: true;
+$enable-rfs: true;
+$enable-validation-icons: true;
+$enable-negative-margins: true;
+$enable-deprecation-messages: true;
+$enable-important-utilities: true;
+$enable-smooth-scroll: true;
+
+$spacer: 1rem;
+
+
+// Color vars
+$primary_color: #101826;
+$secondary_color: #FFD700;
+$third_color: #192231;
+$accent_color: #6016fc;
+$white: #ffff;
+$text: #a1b0c0;
+
+
+// Fonts
+$global-font-family: 'Poppins', sans-serif !important;
+
+//Headings
+h1 {
+    font-size: 3.0rem !important;
+}
+
+h2 {
+    color: $white !important;
+}
+
+h3 {
+    color: $white !important;
+}
+
+h4 {
+    color: $white !important;
+    margin-bottom: 0 !important;
+}
+
+body {
+    background-color: $primary_color !important;
+    font-family: $global-font-family;
+
+    .container {
+        padding: 15px 20px 15px 30px;
+    }
+}
+
+// Buttons
+.contact-button {
+    a {
+        padding: 16px 32px;
+        color: $white;
+        cursor: pointer;
+        background-color: rgba(255, 255, 255, .14);
+        font-weight: 600;
+        transition: all .3s;
+        border-radius: 4px;
+
+        &:hover {
+            background: $secondary_color;
+            color: $primary_color;
+        }
+    }
+}
+
+//Text
+.text {
+    color: $text;
+    font-size: 17px;
+    line-height: 29px;
+}

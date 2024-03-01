@@ -1,0 +1,118 @@
+h1 {
+  font-size: 3rem !important;
+}
+
+h2 {
+  color: white !important;
+}
+
+h3 {
+  color: white !important;
+}
+
+h4 {
+  color: white !important;
+  margin-bottom: 0 !important;
+}
+
+body {
+  background-color: #101826 !important;
+  font-family: "Poppins", sans-serif !important;
+}
+body .container {
+  padding: 15px 20px 15px 30px;
+}
+
+.contact-button a {
+  padding: 16px 32px;
+  color: white;
+  cursor: pointer;
+  background-color: rgba(255, 255, 255, 0.14);
+  font-weight: 600;
+  transition: all 0.3s;
+  border-radius: 4px;
+}
+.contact-button a:hover {
+  background: #FFD700;
+  color: #101826;
+}
+
+.text {
+  color: #a1b0c0;
+  font-size: 17px;
+  line-height: 29px;
+}
+
+nav#header {
+  background: transparent !important;
+  padding: 0;
+}
+nav#header .navbar-brand img {
+  height: 50px;
+}
+nav#header div#navbar .navbar-nav {
+  margin: 0 auto;
+  display: flex;
+  gap: 15px;
+}
+nav#header div#navbar ul#menu-main-menu a.nav-link {
+  color: white;
+  font-weight: 500;
+  font-size: 17px;
+}
+nav#header div#navbar ul#menu-main-menu a.nav-link:hover {
+  color: #FFD700;
+}
+nav#header.scrolled .container {
+  background-color: rgba(49, 58, 72, 0.85) !important;
+  -webkit-backdrop-filter: blur(8px);
+  backdrop-filter: blur(8px);
+  transition: all 0.3s ease;
+}
+nav#header .container {
+  transition: all 0.3s ease;
+  border-radius: 16px;
+  z-index: 999;
+  padding: 15px 20px 15px 30px;
+}
+
+.banner-section {
+  height: calc(100vh - 100px);
+}
+.banner-section .left-banner-section {
+  row-gap: 30px;
+  padding-right: 80px;
+}
+.banner-section .title h1 {
+  color: white;
+}
+.banner-section .description {
+  color: #a1b0c0;
+}
+.banner-section .contact-button a {
+  background-color: #FFD700;
+  color: #101826;
+}
+.banner-section .contact-button a:hover {
+  background-color: rgba(255, 255, 255, 0.14);
+  color: white;
+}
+.banner-section .right-banner-section img {
+  width: 100%;
+}
+
+.about-us-section .image-right img {
+  width: 100%;
+  height: auto;
+}
+.about-us-section .left-banner-section {
+  row-gap: 30px;
+}
+
+.contact-banner {
+  padding: 50px;
+  border-radius: 10px;
+  background-color: #192231;
+}
+
+/*# sourceMappingURL=style.css.map */
